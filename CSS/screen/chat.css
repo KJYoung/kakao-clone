@@ -1,0 +1,16 @@
+#chat-screen {
+  background-color: var(--kakao-skyblue);
+}
+
+#chat-screen .alt-header {
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
+  top: 4px; /*이게 없으면 margin collapsing이 일어난 상태로 위치가 fixed됨. */
+}
+
+.chat-main {
+  border: 1px solid black;
+  padding-top: 15px;
+  margin-top: 150px;
+}

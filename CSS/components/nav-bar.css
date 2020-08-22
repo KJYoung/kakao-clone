@@ -3,7 +3,7 @@
   bottom: 0px;
   width: 100%;
   box-sizing: border-box;
-  background-color: var(--nav--background);
+  background-color: var(--nav-background);
   padding: 20px 50px;
   border-top: 1px solid rgb(0, 0, 0, 0.3);
 }
@@ -19,25 +19,11 @@
 }
 
 .nav__notification {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: tomato;
-  color: white;
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
-  font-weight: 600;
   position: absolute;
   right: -6px;
   top: -12px;
 }
 .nav__notinew {
-  display: block;
-  background-color: tomato;
-  width: 5px;
-  height: 5px;
-  border-radius: 50%;
   position: absolute;
   right: -6px;
   top: -12px;

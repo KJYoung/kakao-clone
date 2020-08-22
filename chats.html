@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends kokoa talk</title>
+    <title>Chats kokoa talk</title>
     <link href="CSS/styles.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/12de2be685.js"
@@ -26,57 +26,53 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+    <header class="screen-header screen-header-with-margin-bottom">
+      <h1 class="screen-header__title">Chats</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
+        <span><i class="far fa-comment-dots fa-lg"></i></span>
         <span><i class="fas fa-music fa-lg"></i></span>
         <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i> Friends' Names Display
-      <i class="fas fa-chevron-right fa-xs"></i>
-    </a>
-    <main class="friends-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/s320x320/117344833_1488215848052447_5050554040722604600_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=Janu3fSCnHYAX9iPkso&oh=dbab2a32ec1a4107e85306e6d0d7564d&oe=5F67F1F9"
-            class="user-component__avatar user-component__avatar-xl"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__title">Jun-young Kim</h4>
-            <!-- <h6 class="user-component__subtitle">sasdasdasdas</h6> -->
-          </div>
-        </div>
-        <div class="user-component__column"></div>
-      </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span>Channel</span>
-          <i class="fas fa-chevron-up fa-xs"></i>
-        </div>
+    <main class="main-screen">
+      <a href="chat.html">
         <div class="user-component">
           <div class="user-component__column">
             <img
               src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/s320x320/117344833_1488215848052447_5050554040722604600_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=Janu3fSCnHYAX9iPkso&oh=dbab2a32ec1a4107e85306e6d0d7564d&oe=5F67F1F9"
-              class="user-component__avatar user-component__avatar-sm"
+              class="user-component__avatar"
             />
             <div class="user-component__text">
-              <h4 class="user-component__title user-component__title-nbold">
-                Channel
-              </h4>
-              <!-- <h6 class="user-component__subtitle">sasdasdasdas</h6> -->
+              <h4 class="user-component__title">Jun-young Kim</h4>
+              <h6 class="user-component__subtitle">
+                Please check my kokoa account info
+              </h6>
             </div>
           </div>
           <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fas fa-chevron-right fa-xs"></i>
-            </div>
+            <span class="user-component__time">12:21</span>
+            <span class="badge">1</span>
           </div>
+        </div>
+      </a>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://scontent-ssn1-1.cdninstagram.com/v/t51.2885-19/s320x320/117344833_1488215848052447_5050554040722604600_n.jpg?_nc_ht=scontent-ssn1-1.cdninstagram.com&_nc_ohc=Janu3fSCnHYAX9iPkso&oh=dbab2a32ec1a4107e85306e6d0d7564d&oe=5F67F1F9"
+            class="user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Jun-young Kim</h4>
+            <h6 class="user-component__subtitle">
+              Please check my kokoa account info
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">12:21</span>
+          <span class="badge">1</span>
         </div>
       </div>
     </main>
@@ -84,13 +80,13 @@
       <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html">
-            <i class="fas fa-user fa-2x"></i>
+            <i class="far fa-user fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="far fa-comment fa-2x"></i>
+            <i class="fas fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">

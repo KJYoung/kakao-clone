@@ -1,5 +1,14 @@
 :root {
   --kakao-yellow: #fae100;
   --kakao-black: #343740;
-  --nav--background: #f9f9fa;
+  --kakao-skyblue: #abc1d1;
+  --nav-background: #f9f9fa;
+  --kakao-gray1: #fafafa;
+  --grayby8: rgba(0, 0, 0, 0.8);
+  --grayby5: rgba(0, 0, 0, 0.5);
+  --grayby4: rgba(0, 0, 0, 0.4);
+
+  --horizontal-margin: 25px;
+
+  --main-border: 1px solid rgba(0, 0, 0, 0.3);
 }
