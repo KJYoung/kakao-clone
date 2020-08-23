@@ -7,6 +7,7 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  z-index: 999;
 }
 .status-bar-blue {
   background-color: var(--kakao-skyblue);

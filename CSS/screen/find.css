@@ -82,7 +82,7 @@
 .open-post__heart-count {
   background-color: var(--grayby5);
   color: white;
-  padding: 5px;
+  padding: 6px 12px;
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -93,5 +93,22 @@
 }
 
 .open-post__heart-count span {
-  margin-left: 4px;
+  margin-left: 5px;
+}
+
+@keyframes heartbeatanim {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.35);
+    color: tomato;
+  }
+  100% {
+    transform: none;
+  }
+}
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartbeatanim 400ms ease-in-out infinite;
 }

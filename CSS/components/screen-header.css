@@ -17,7 +17,17 @@
 .screen-header__icons {
   position: relative;
 }
-
+@keyframes rotatecoganim {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(1turn);
+  }
+}
+.screen-header__icons .fa-cog:hover {
+  animation: rotatecoganim 1s linear infinite;
+}
 .cog__notinew {
   position: absolute;
   right: -4px;
